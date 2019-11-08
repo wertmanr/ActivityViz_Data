@@ -21,13 +21,13 @@
       "title": "- Washington DC INRIX Processing",
       "visualizations": {
         "BarMap": [
-          {"name": "BarChart","file": "BarChartAndMapData.csv","config": "Default"}
+          {"name": "Daily Truck Trip Barchart","file": "BarChartAndMapData.csv","config": "Default", "info":"This chart shows truck trips by county"}
         ],
         "RadarCharts": [
-          {"name": "ThisBeMyrRadars","file": "RadarChartsData.csv","config": "Default"}
+          {"name": "Radar Charts by County","file": "RadarChartsData.csv","config": "Default"}
         ],
         "Chord": [
-          {"name": "Thisismychordcha rt","file":"ChordData.csv","config":"Default"}
+          {"name": "Truck flows by County - Chord","file":"ChordData.csv","config":"Default"}
         ]
       }
     }

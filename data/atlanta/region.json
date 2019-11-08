@@ -22,9 +22,11 @@
       "label":"Travel Model for Base Year 2010",
       "ScenarioFocus": "transit.json",
       "visualizations": {
-         "GroupedCharts": [{"name":"GroupedCharts","config":"Default", "file":"BarChartData.csv","heading":"Trips by Size"},
-          {"name":"GroupedCharts2","config":"Default", "file":"BarChartData2.csv"}],
-        "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv","info":"blahblahblah"}],
+        "GroupedCharts": [
+          {"name":"GroupedCharts","config":"Default", "file":"BarChartData.csv","info":"This Barchart shows Day patterns by Person Groupings",
+            "datafilecolumns":{"PERSON GROUP":"Groups based on status","DAY PATTERN":"Can be Home, Mandatory and Non-Mandatory","Count":"Count of people","CHART":"Which grouped chart they belong too"}},
+          {"name":"GroupedCharts2","config":"Default", "file":"BarChartData2.csv", "info":"This barchart data comes from another region just for example purposes"}],
+        "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv","info":"This is a sunburst chart"}],
         "3DMap": [{"name":"ThreeDMap","config":"Default","file":"3DAnimatedMapData.csv"}],
 
 
