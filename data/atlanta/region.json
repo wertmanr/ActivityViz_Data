@@ -49,7 +49,8 @@
       }
     },
     "NB2040": {
-      "title": "- No-Build 2040",
+      "title": "- No-Build 2040",      
+      "ScenarioFocus": "transit.json",
       "visualizations": {       
         "3DMap": [{"name":"Persons not at home","config":"Default","file":"3DAnimatedMapData.csv",
           "datafilecolumns":{"ZONE":"Zone Number","PER":"Period","PERSONS NOT AT HOME":"Number of people not at home per zone and period"}}],
@@ -73,6 +74,7 @@
     },
     "RP2015": {
       "title": "- Regional Plan 2015",
+      "ScenarioFocus": "transit.json",
       "visualizations": {
         "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv",
           "datafilecolumns":{"TRIPS BY MODE":"","NEST MODE":"","SIMPLE MODE":"","QUANTITY":""}
@@ -97,6 +99,7 @@
     }, 
     "RP2017": {
       "title": "- Regional Plan 2017",
+      "ScenarioFocus": "transit.json",
       "visualizations": {
         "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv",
           "datafilecolumns":{"TRIPS BY MODE":"","NEST MODE":"","SIMPLE MODE":"","QUANTITY":""}
@@ -121,6 +124,7 @@
     },
     "RP2020": {
       "title": "- Regional Plan 2020",
+      "ScenarioFocus": "transit.json",
       "visualizations": {
         "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv",
           "datafilecolumns":{"TRIPS BY MODE":"","NEST MODE":"","SIMPLE MODE":"","QUANTITY":""}
@@ -145,6 +149,7 @@
     },
     "RP2024": {
       "title": "- Regional Plan 2024",
+      "ScenarioFocus": "transit.json",
       "visualizations": {
         "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv",
           "datafilecolumns":{"TRIPS BY MODE":"","NEST MODE":"","SIMPLE MODE":"","QUANTITY":""}
@@ -168,7 +173,8 @@
       }
     },
     "RP2030": {
-      "title": "- Regional Plan 2015",
+      "title": "- Regional Plan 2030",
+      "ScenarioFocus": "transit.json",
       "visualizations": {
         "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv",
           "datafilecolumns":{"TRIPS BY MODE":"","NEST MODE":"","SIMPLE MODE":"","QUANTITY":""}
@@ -193,6 +199,7 @@
     },                       
     "RP2040": {
       "title": "- Regional Plan 2040",
+      "ScenarioFocus": "transit.json",
       "visualizations": {
         "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv",
           "datafilecolumns":{"TRIPS BY MODE":"","NEST MODE":"","SIMPLE MODE":"","QUANTITY":""}
@@ -217,6 +224,7 @@
     },
     "RP-NB": {
       "title": "- Regional Plan 2040 minus No-Build 2040",
+      "ScenarioFocus": "transit.json",
       "visualizations": {
         "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv",
           "datafilecolumns":{"TRIPS BY MODE":"","NEST MODE":"","SIMPLE MODE":"","QUANTITY":""}}],
