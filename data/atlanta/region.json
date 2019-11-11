@@ -67,7 +67,7 @@
           "POIMap": [{"name":"Transit","config":"Default","file":"TransitStops.csv","info":"Bus and rail stations",
             "datafilecolumns":{"STATION":"Station ID","MODE":"Station Mode (Bus or Rail)","LAT":"Latitude of station","LONG":"Longitude of station","TIMEOFDAY":"Time of day","BOARDINGS":"Number of boardings","ALIGHTINGS":"Number of alightings"}}
           ],                
-        "Chord": [{"name":"Trip OD Chart","config":"Default", "file":"DesireLines.csv","info":"This chart shows number of different trips between super districts.",
+        "Chord": [{"name":"Trip OD Chart","config":"Default", "file":"Desirelines.csv","info":"This chart shows number of different trips between super districts.",
           "datafilecolumns":{"FROM":"Origin district of trip","TO":"Destination district for trip","Trip Type Columns":"Work/Non-Work trips by transportation type"}}
           ]
       }
@@ -92,7 +92,7 @@
           "POIMap": [{"name":"Transit","config":"Default","file":"TransitStops.csv","info":"Bus and rail stations",
             "datafilecolumns":{"STATION":"Station ID","MODE":"Station Mode (Bus or Rail)","LAT":"Latitude of station","LONG":"Longitude of station","TIMEOFDAY":"Time of day","BOARDINGS":"Number of boardings","ALIGHTINGS":"Number of alightings"}}
           ],                
-        "Chord": [{"name":"Trip OD Chart","config":"Default", "file":"DesireLines.csv","info":"This chart shows number of different trips between super districts.",
+        "Chord": [{"name":"Trip OD Chart","config":"Default", "file":"Desirelines.csv","info":"This chart shows number of different trips between super districts.",
           "datafilecolumns":{"FROM":"Origin district of trip","TO":"Destination district for trip","Trip Type Columns":"Work/Non-Work trips by transportation type"}}
           ]          
       }
@@ -117,7 +117,7 @@
           "POIMap": [{"name":"Transit","config":"Default","file":"TransitStops.csv","info":"Bus and rail stations",
             "datafilecolumns":{"STATION":"Station ID","MODE":"Station Mode (Bus or Rail)","LAT":"Latitude of station","LONG":"Longitude of station","TIMEOFDAY":"Time of day","BOARDINGS":"Number of boardings","ALIGHTINGS":"Number of alightings"}}
           ],                
-        "Chord": [{"name":"Trip OD Chart","config":"Default", "file":"DesireLines.csv","info":"This chart shows number of different trips between super districts.",
+        "Chord": [{"name":"Trip OD Chart","config":"Default", "file":"Desirelines.csv","info":"This chart shows number of different trips between super districts.",
           "datafilecolumns":{"FROM":"Origin district of trip","TO":"Destination district for trip","Trip Type Columns":"Work/Non-Work trips by transportation type"}}
           ]          
       }
@@ -142,7 +142,7 @@
           "POIMap": [{"name":"Transit","config":"Default","file":"TransitStops.csv","info":"Bus and rail stations",
             "datafilecolumns":{"STATION":"Station ID","MODE":"Station Mode (Bus or Rail)","LAT":"Latitude of station","LONG":"Longitude of station","TIMEOFDAY":"Time of day","BOARDINGS":"Number of boardings","ALIGHTINGS":"Number of alightings"}}
           ],                
-        "Chord": [{"name":"Trip OD Chart","config":"Default", "file":"DesireLines.csv","info":"This chart shows number of different trips between super districts.",
+        "Chord": [{"name":"Trip OD Chart","config":"Default", "file":"Desirelines.csv","info":"This chart shows number of different trips between super districts.",
           "datafilecolumns":{"FROM":"Origin district of trip","TO":"Destination district for trip","Trip Type Columns":"Work/Non-Work trips by transportation type"}}
           ]          
       }
@@ -167,7 +167,7 @@
           "POIMap": [{"name":"Transit","config":"Default","file":"TransitStops.csv","info":"Bus and rail stations",
             "datafilecolumns":{"STATION":"Station ID","MODE":"Station Mode (Bus or Rail)","LAT":"Latitude of station","LONG":"Longitude of station","TIMEOFDAY":"Time of day","BOARDINGS":"Number of boardings","ALIGHTINGS":"Number of alightings"}}
           ],                
-        "Chord": [{"name":"Trip OD Chart","config":"Default", "file":"DesireLines.csv","info":"This chart shows number of different trips between super districts.",
+        "Chord": [{"name":"Trip OD Chart","config":"Default", "file":"Desirelines.csv","info":"This chart shows number of different trips between super districts.",
           "datafilecolumns":{"FROM":"Origin district of trip","TO":"Destination district for trip","Trip Type Columns":"Work/Non-Work trips by transportation type"}}
           ]          
       }
@@ -192,7 +192,7 @@
           "POIMap": [{"name":"Transit","config":"Default","file":"TransitStops.csv","info":"Bus and rail stations",
             "datafilecolumns":{"STATION":"Station ID","MODE":"Station Mode (Bus or Rail)","LAT":"Latitude of station","LONG":"Longitude of station","TIMEOFDAY":"Time of day","BOARDINGS":"Number of boardings","ALIGHTINGS":"Number of alightings"}}
           ],                
-        "Chord": [{"name":"Trip OD Chart","config":"Default", "file":"DesireLines.csv","info":"This chart shows number of different trips between super districts.",
+        "Chord": [{"name":"Trip OD Chart","config":"Default", "file":"Desirelines.csv","info":"This chart shows number of different trips between super districts.",
           "datafilecolumns":{"FROM":"Origin district of trip","TO":"Destination district for trip","Trip Type Columns":"Work/Non-Work trips by transportation type"}}
           ]          
       }
@@ -217,7 +217,7 @@
           "POIMap": [{"name":"Transit","config":"Default","file":"TransitStops.csv","info":"Bus and rail stations",
             "datafilecolumns":{"STATION":"Station ID","MODE":"Station Mode (Bus or Rail)","LAT":"Latitude of station","LONG":"Longitude of station","TIMEOFDAY":"Time of day","BOARDINGS":"Number of boardings","ALIGHTINGS":"Number of alightings"}}
           ],                
-        "Chord": [{"name":"Trip OD Chart","config":"Default", "file":"DesireLines.csv","info":"This chart shows number of different trips between super districts.",
+        "Chord": [{"name":"Trip OD Chart","config":"Default", "file":"Desirelines.csv","info":"This chart shows number of different trips between super districts.",
           "datafilecolumns":{"FROM":"Origin district of trip","TO":"Destination district for trip","Trip Type Columns":"Work/Non-Work trips by transportation type"}}
           ]          
       }
