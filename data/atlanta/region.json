@@ -22,58 +22,82 @@
       "label":"Travel Model for Base Year 2010",
       "ScenarioFocus": "transit.json",
       "visualizations": {
-        "GroupedCharts": [
-          {"name":"GroupedCharts","config":"Default", "file":"BarChartData.csv","info":"This Barchart shows Day patterns by Person Groupings",
-            "datafilecolumns":{"PERSON GROUP":"Groups based on status","DAY PATTERN":"Can be Home, Mandatory and Non-Mandatory","Count":"Count of people","CHART":"Which grouped chart they belong too"}}
-         ],
-        "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv","info":"This is a sunburst chart"}],
-        "3DMap": [{"name":"ThreeDMap","config":"Default","file":"3DAnimatedMapData.csv"}],
-
-
+        "GroupedCharts": [{"name":"GroupedCharts","config":"Default", "file":"BarChartData.csv","info":"This Barchart shows Day patterns by Person Groupings",
+          "datafilecolumns":{"PERSON GROUP":"Groups based on status","DAY PATTERN":"Can be Home, Mandatory and Non-Mandatory","Count":"Count of people","CHART":"Which grouped chart they belong too"}}
+        ],
+        "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv","info":"This is a sunburst chart", 
+          "datafilecolumns":{"TRIPS BY MODE":"","NEST MODE":"","SIMPLE MODE":"","QUANTITY":""}}
+        ],
+        "3DMap": [{"name":"ThreeDMap","config":"Default","file":"3DAnimatedMapData.csv","info":"3D Map showing time of day people are not home",
+          "datafilecolumns":{"ZONE":"Zone Number","PER":"Period","PERSONS NOT AT HOME":"Number of people not at home per zone and period"}}
+        ],
         "TimeUse": [{"name":"TimeUse","config":"Default","file":"TimeUseData.csv",
-          "datafilecolumns":{
-          "PERSON_TYPE": "Person classification",
-          "PER": "Period",
-          "ORIG_PURPOSE":"Purpose for the trip",
-          "QUANTITY": "Number of trips for specific purpose and person classification"}
+          "datafilecolumns":{"PERSON_TYPE": "Person classification","PER": "Period","ORIG_PURPOSE":"Purpose for the trip","QUANTITY": "Number of trips for specific purpose and person classification"}
         }],
-        "RadarCharts": [{"name":"Radar","config":"Default","file":"RadarChartsData.csv"}],
-        "BarMap": [{"name":"BarChart","config":"Default", "file":"BarChartAndMapData.csv"}],
-        "Chord": [{"name":"Trip OD Chart","config":"Default", "file":"DesireLines.csv","info":"This chart shows desire lines and super districts"}],
-        "POIMap": [{"name":"Transit Points of Interest","config":"Default","file":"TransitStops.csv"}]
+        "RadarCharts": [{"name":"Radar","config":"Default","file":"RadarChartsData.csv","info":"Radar Tooltip",
+          "datafilecolumns":{"AXIS":"Label of the axis of the chart","CHART":"Chart grouping","QUANTITY":"QUANTITY"}}
+        ],
+        "BarMap": [{"name":"BarChart","config":"Default", "file":"BarChartAndMapData.csv","info":"Trip mode by county bar chart with map",
+          "datafilecolumns":{"ZONE":"Zone ID","COUNTY":"County Label","TRIP MODE":"Trip Mode","QUANTITY":"Quantity"}}
+        ],
+        "Chord": [{"name":"Trip OD Chart","config":"Default", "file":"DesireLines.csv","info":"This chart shows number of different trips between super districts.",
+        "datafilecolumns":{"FROM":"Origin district of trip","TO":"Destination district for trip","Trip Type Columns":"Work/Non-Work trips by transportation type"}}
+        ],
+        "POIMap": [{"name":"Transit Points of Interest","config":"Default","file":"TransitStops.csv","info":"Bus and rail stations",
+          "datafilecolumns":{"STATION":"Station ID","MODE":"Station Mode (Bus or Rail)","LAT":"Latitude of station","LONG":"Longitude of station","TIMEOFDAY":"Time of day","BOARDINGS":"Number of boardings","ALIGHTINGS":"Number of alightings"}}
+        ]
       }
     },
     "NB2040": {
       "title": "- No-Build 2040",
       "visualizations": {
-        "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv"}],
-        "3DMap": [{"name":"3DMap","config":"Default","file":"3DAnimatedMapData.csv"}],
-        "GroupedCharts": [{"name":"GroupedCharts","config":"Default", "file":"BarChartData.csv"}],
-        "TimeUse": [{"name":"TimeUse","config":"Default","file":"TimeUseData.csv"}],
-        "RadarCharts": [{"name":"Radar","config":"Default","file":"RadarChartsData.csv"}],
-        "BarMap": [{"name":"BarChart","config":"Default", "file":"BarChartAndMapData.csv"}]
+        "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv",
+          "datafilecolumns":{"TRIPS BY MODE":"","NEST MODE":"","SIMPLE MODE":"","QUANTITY":""}}],
+        "3DMap": [{"name":"3DMap","config":"Default","file":"3DAnimatedMapData.csv",
+          "datafilecolumns":{"ZONE":"Zone Number","PER":"Period","PERSONS NOT AT HOME":"Number of people not at home per zone and period"}}],
+        "GroupedCharts": [{"name":"GroupedCharts","config":"Default", "file":"BarChartData.csv",
+          "datafilecolumns":{"PERSON GROUP":"Groups based on status","DAY PATTERN":"Can be Home, Mandatory and Non-Mandatory","Count":"Count of people","CHART":"Which grouped chart they belong too"}}],
+        "TimeUse": [{"name":"TimeUse","config":"Default","file":"TimeUseData.csv",
+          "datafilecolumns":{"PERSON_TYPE": "Person classification","PER": "Period","ORIG_PURPOSE":"Purpose for the trip","QUANTITY": "Number of trips for specific purpose and person classification"}}],
+        "RadarCharts": [{"name":"Radar","config":"Default","file":"RadarChartsData.csv",
+          "datafilecolumns":{"AXIS":"Label of the axis of the chart","CHART":"Chart grouping","QUANTITY":"QUANTITY"}}],
+        "BarMap": [{"name":"BarChart","config":"Default", "file":"BarChartAndMapData.csv",
+          "datafilecolumns":{"ZONE":"Zone ID","COUNTY":"County Label","TRIP MODE":"Trip Mode","QUANTITY":"Quantity"}}]
       }
     },
     "RP2040": {
       "title": "- Regional Plan 2040",
       "visualizations": {
-        "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv"}],
-        "3DMap": [{"name":"3DMap","config":"Default","file":"3DAnimatedMapData.csv"}],
-        "GroupedCharts": [{"name":"GroupedCharts","config":"Default", "file":"BarChartData.csv"}],
-        "TimeUse": [{"name":"TimeUse","config":"Default","file":"TimeUseData.csv"}],
-        "RadarCharts": [{"name":"Radar","config":"Default","file":"RadarChartsData.csv"}],
-        "BarMap": [{"name":"BarChart","config":"Default", "file":"BarChartAndMapData.csv"}]
+        "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv",
+          "datafilecolumns":{"TRIPS BY MODE":"","NEST MODE":"","SIMPLE MODE":"","QUANTITY":""}
+          }],
+        "3DMap": [{"name":"3DMap","config":"Default","file":"3DAnimatedMapData.csv",
+          "datafilecolumns":{"ZONE":"Zone Number","PER":"Period","PERSONS NOT AT HOME":"Number of people not at home per zone and period"}}],
+        "GroupedCharts": [{"name":"GroupedCharts","config":"Default", "file":"BarChartData.csv",
+          "datafilecolumns":{"PERSON GROUP":"Groups based on status","DAY PATTERN":"Can be Home, Mandatory and Non-Mandatory","Count":"Count of people","CHART":"Which grouped chart they belong too"}}],
+        "TimeUse": [{"name":"TimeUse","config":"Default","file":"TimeUseData.csv",
+          "datafilecolumns":{"PERSON_TYPE": "Person classification","PER": "Period","ORIG_PURPOSE":"Purpose for the trip","QUANTITY": "Number of trips for specific purpose and person classification"}}],
+        "RadarCharts": [{"name":"Radar","config":"Default","file":"RadarChartsData.csv",
+          "datafilecolumns":{"AXIS":"Label of the axis of the chart","CHART":"Chart grouping","QUANTITY":"QUANTITY"}}],
+        "BarMap": [{"name":"BarChart","config":"Default", "file":"BarChartAndMapData.csv",
+          "datafilecolumns":{"ZONE":"Zone ID","COUNTY":"County Label","TRIP MODE":"Trip Mode","QUANTITY":"Quantity"}}]
       }
     },
     "RP-NB": {
       "title": "- Regional Plan 2040 minus No-Build 2040",
       "visualizations": {
-        "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv"}],
-        "3DMap": [{"name":"3DMap","config":"Default","file":"3DAnimatedMapData.csv"}],
-        "GroupedCharts": [{"name":"GroupedCharts","config":"Default", "file":"BarChartData.csv"}],
-        "TimeUse": [{"name":"TimeUse","config":"Default","file":"TimeUseData.csv"}],
-        "RadarCharts": [{"name":"Radar","config":"Default","file":"RadarChartsData.csv"}],
-        "BarMap": [{"name":"BarChart","config":"Default", "file":"BarChartAndMapData.csv"}]
+        "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv",
+          "datafilecolumns":{"TRIPS BY MODE":"","NEST MODE":"","SIMPLE MODE":"","QUANTITY":""}}],
+        "3DMap": [{"name":"3DMap","config":"Default","file":"3DAnimatedMapData.csv",
+          "datafilecolumns":{"ZONE":"Zone Number","PER":"Period","PERSONS NOT AT HOME":"Number of people not at home per zone and period"}}],
+        "GroupedCharts": [{"name":"GroupedCharts","config":"Default", "file":"BarChartData.csv",
+          "datafilecolumns":{"PERSON GROUP":"Groups based on status","DAY PATTERN":"Can be Home, Mandatory and Non-Mandatory","Count":"Count of people","CHART":"Which grouped chart they belong too"}}],
+        "TimeUse": [{"name":"TimeUse","config":"Default","file":"TimeUseData.csv",
+          "datafilecolumns":{"PERSON_TYPE": "Person classification","PER": "Period","ORIG_PURPOSE":"Purpose for the trip","QUANTITY": "Number of trips for specific purpose and person classification"}}],
+        "RadarCharts": [{"name":"Radar","config":"Default","file":"RadarChartsData.csv",
+          "datafilecolumns":{"AXIS":"Label of the axis of the chart","CHART":"Chart grouping","QUANTITY":"QUANTITY"}}],
+        "BarMap": [{"name":"BarChart","config":"Default", "file":"BarChartAndMapData.csv",
+          "datafilecolumns":{"ZONE":"Zone ID","COUNTY":"County Label","TRIP MODE":"Trip Mode","QUANTITY":"Quantity"}}]
       }
     }
   },
