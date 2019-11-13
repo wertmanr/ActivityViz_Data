@@ -10,7 +10,7 @@
     38.9072,
     -77.0369
   ],
-  "FrontPageTitle": "RSG Demo Data",
+  "FrontPageTitle": "RSG Demo",
   "FrontPageGraphic": "RSG_400px.jpg",
   "SideBarTextLeft": "ActivityViz was initially funded by the Atlanta Regional Commission with additional support from Oregon Metro and others.",
   "SideBarTextRight": "ActivityViz is an interactive travel and activity data visualization tool.  It is built with JavaScript technologies and works with various types of travel and activity data - household travel surveys, trip-based model outputs, activity-based model outputs, disaggregate passive data, freight models, on-board surveys, etc.  The dashboard features several interactive and customizable visualizations for exploring data, such as 3D maps of trips in time and space, time use by person type and activity, radar charts for performance measure analysis, sunburst diagrams for visualizing mode shares, animated bubble maps, chord diagrams for OD data, point-of-interest maps for transit stop data, truck flow data, etc.  ActivityViz is published using GitHub pages which eliminates most of the administrative backend in traditional systems.  This improved deployment strategy makes maintenance much easier for data science users.",
@@ -20,13 +20,13 @@
       "title": "- Washington DC INRIX Trip Data Processing",
       "visualizations": {
         "BarMap": [
-          {"name": "Daily Truck Trip Barchart","file": "BarChartAndMapData.csv","config": "Default", "info":"This chart shows truck trips by county"}
+          {"name": "Daily Truck Trips","file": "BarChartAndMapData.csv","config": "Default", "info":"Truck trips by zone and county"}
         ],
         "RadarCharts": [
-          {"name": "Radar Charts by County","file": "RadarChartsData.csv","config": "Default"}
+          {"name": "Truck VMT","file": "RadarChartsData.csv","config": "Default", "info":"Truck VMT by truck type and county"}
         ],
         "Chord": [
-          {"name": "Truck flows by County - Chord","file":"ChordData.csv","config":"Default"}
+          {"name": "Truck OD Flows","file":"ChordData.csv","config":"Default", "info":"Truck OD flows by county"}
         ]
       }
     }
