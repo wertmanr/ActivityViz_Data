@@ -49,15 +49,15 @@
       }
     },
     "NB2040": {
-      "title": "- No-Build 2040",      
+      "title": "- No-Build 2040",
       "ScenarioFocus": "transit.json",
-      "visualizations": {       
+      "visualizations": {
         "3DMap": [{"name":"Persons not at home","config":"Default","file":"3DAnimatedMapData.csv",
           "datafilecolumns":{"ZONE":"Zone Number","PER":"Period","PERSONS NOT AT HOME":"Number of people not at home per zone and period"}}],
         "GroupedCharts": [{"name":"Grouped Data","config":"Default", "file":"BarChartData.csv",
           "datafilecolumns":{"PERSON GROUP":"Groups based on status","DAY PATTERN":"Can be Home, Mandatory and Non-Mandatory","Count":"Count of people","CHART":"Which grouped chart they belong too"}}],
         "BarMap": [{"name":"Trip Mode","config":"Default", "file":"BarChartAndMapData.csv",
-          "datafilecolumns":{"ZONE":"Zone ID","COUNTY":"County Label","TRIP MODE":"Trip Mode","QUANTITY":"Quantity"}}],          
+          "datafilecolumns":{"ZONE":"Zone ID","COUNTY":"County Label","TRIP MODE":"Trip Mode","QUANTITY":"Quantity"}}],
         "TimeUse": [{"name":"Time Use","config":"Default","file":"TimeUseData.csv",
           "datafilecolumns":{"PERSON_TYPE": "Person classification","PER": "Period","ORIG_PURPOSE":"Purpose for the trip","QUANTITY": "Number of trips for specific purpose and person classification"}}],
         "Sunburst": [{"name":"Sunburst","config":"Default","file":"TreeMapData.csv",
@@ -66,7 +66,7 @@
           "datafilecolumns":{"AXIS":"Label of the axis of the chart","CHART":"Chart grouping","QUANTITY":"QUANTITY"}}],
           "POIMap": [{"name":"Transit","config":"Default","file":"TransitStops.csv","info":"Bus and rail stations",
             "datafilecolumns":{"STATION":"Station ID","MODE":"Station Mode (Bus or Rail)","LAT":"Latitude of station","LONG":"Longitude of station","TIMEOFDAY":"Time of day","BOARDINGS":"Number of boardings","ALIGHTINGS":"Number of alightings"}}
-          ],                
+          ],
         "Chord": [{"name":"Trip OD Chart","config":"Default", "file":"Desirelines.csv","info":"This chart shows number of different trips between super districts.",
           "datafilecolumns":{"FROM":"Origin district of trip","TO":"Destination district for trip","Trip Type Columns":"Work/Non-Work trips by transportation type"}}
           ]
