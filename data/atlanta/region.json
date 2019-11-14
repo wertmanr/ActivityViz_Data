@@ -70,9 +70,6 @@
         "RadarCharts": [{"name":"Performance Measures","config":"Default","file":"RadarChartsData.csv","info":"Activity centers by four performance measures.  The min/max by measure is scaled to the zone with the highest and lowest value.",
           "datafilecolumns":{"AXIS":"Performance measure","CHART":"Chart grouping","QUANTITY":"QUANTITY"}}
         ],
-        "POIMap": [{"name":"Rail Stations","config":"Default","file":"TransitStops.csv","info":"Rail station data",
-          "datafilecolumns":{"STATION":"Station ID","MODE":"Station Mode","LAT":"Latitude of station","LONG":"Longitude of station","TIMEOFDAY":"Time of day","BOARDINGS":"Number of boardings","ALIGHTINGS":"Number of alightings"}}
-        ],        
         "Chord": [{"name":"Trip ODs","config":"Default", "file":"DesireLines.csv","info":"Trips by purpose and mode between super districts.",
         "datafilecolumns":{"FROM":"Origin district of trip","TO":"Destination district of trip","Trip Type Columns":"Trip purpose and mode"}}
         ]
