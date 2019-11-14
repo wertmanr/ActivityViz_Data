@@ -265,7 +265,9 @@
     "Default":{
       "ZoneFilterFile": "superdistricts.csv",
       "ZoneFile": "superdistricts.json",
-      "DesireLines": "desirelines.geojson" 
+      "DesireLines": "desirelines.geojson" ,
+	  "ExcludeSameOD": "true"
+	  
 
     }
   },
