@@ -49,7 +49,7 @@
             "title": "- Freight Flows",
             "CenterMap": [45.512794,-122.679565],
             "visualizations": {
-                "POIMap": [{"name":"My POI","config":"Default","file":"PointofInterest.csv"}]
+                "POIMap": [{"name":"Freight Flows","config":"Default","file":"PointofInterest.csv"}]
             }
         },
         "Concept-B": {
