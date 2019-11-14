@@ -17,7 +17,7 @@
         "Sunburst": [{"name":"Nested Mode Share","config":"Default","file":"TreeMapData.csv","info":"Nested Trip Mode Share.  Click a ring area to drill-down into the nest.  Click the center to go back up the nest."}],
         "3DMap": [{"name":"Daytime Population","config":"Default","file":"3DAnimatedMapData.csv","info":"People that are not in their home zone by time-of-day"}],
         "GroupedCharts": [{"name":"Day Pattern","config":"Default", "file":"BarChartData.csv","info":"Person day pattern by person type"}],
-        "TimeUse": [{"name":"TimeUse","config":"Default","file":"TimeUseData.csv","info":"Displays person out-of-home travel purpose by time of day. The vertical axis displays the sum or percent of activity and the horizontal axis displays the period of the day."}],
+        "TimeUse": [{"name":"Time Use","config":"Default","file":"TimeUseData.csv","info":"Displays person out-of-home travel purpose by time of day. The vertical axis displays the sum or percent of activity and the horizontal axis displays the period of the day."}],
         "RadarCharts": [{"name":"Performance Measures","config":"Default","file":"RadarChartsData.csv","info":"Performance measures by county.  The min/max by measure is scaled to the zone with the highest and lowest value."}],
         "Chord": [{"name":"Trip ODs","config":"Default","file":"ChordData.csv","info":"Daily Trip ODs"}]
       }
@@ -29,7 +29,7 @@
         "Sunburst": [{"name":"Nested Mode Share","config":"Default","file":"TreeMapData.csv","info":"Nested Trip Mode Share.  Click a ring area to drill-down into the nest.  Click the center to go back up the nest."}],
         "3DMap": [{"name":"Daytime Population","config":"Default","file":"3DAnimatedMapData.csv","info":"People that are not in their home zone by time-of-day"}],
         "GroupedCharts": [{"name":"Day Pattern","config":"Default", "file":"BarChartData.csv","info":"Person day pattern by person type"}],
-        "TimeUse": [{"name":"TimeUse","config":"Default","file":"TimeUseData.csv","info":"Displays person out-of-home travel purpose by time of day. The vertical axis displays the sum or percent of activity and the horizontal axis displays the period of the day."}],
+        "TimeUse": [{"name":"Time Use","config":"Default","file":"TimeUseData.csv","info":"Displays person out-of-home travel purpose by time of day. The vertical axis displays the sum or percent of activity and the horizontal axis displays the period of the day."}],
         "RadarCharts": [{"name":"Performance Measures","config":"Default","file":"RadarChartsData.csv","info":"Performance measures by county.  The min/max by measure is scaled to the zone with the highest and lowest value."}],
         "Chord": [{"name":"Trip ODs","config":"Default","file":"ChordData.csv","info":"Daily Trip ODs"}]
       }
