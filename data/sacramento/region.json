@@ -45,7 +45,7 @@
     "OD": {
       "title":"- OD flows by data source",
       "visualizations": {
-        "Chord": [{"name":"Chord","config":"Default","file":"ChordData.csv","info":"Daily Trip ODs by Data Source"}]
+        "Chord": [{"name":"Trip ODs","config":"Default","file":"ChordData.csv","info":"Daily Trip ODs by Data Source"}]
       }
     }
   },
