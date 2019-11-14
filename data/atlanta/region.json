@@ -282,7 +282,7 @@
     "Default": {
         "BarSpacing": "0.6",
         "RotateLabels": "0",
-        "LegendTitle": "Transit Chart",
+        "LegendTitle": "Rail Stations",
         "BubbleDefault": true
     }
 }
