@@ -17,11 +17,10 @@
     "scenarios": {
         "I205": {"title": "- I205","CenterMap": [45.367157,-122.692046],"ScenarioFocus": "I205.json",
             "visualizations": {
-                "GroupedCharts": [{"name":"Benefits","config":"Default", "file":"BarChartData.csv"}],
-                "BarMap": [{"name":"Travel Options Benefit","config":"Default", "file":"BarChartAndMapData.csv"}],
-                "Chord": [{"name":"Travel Time Savings","config":"Default", "file":"ChordData.csv"}],
-                "3DMap": [{"name":"3D Travel Options Benefit","config":"Default","file":"3DAnimatedMapData.csv"}],
-                "RadarCharts": [{"name":"All Benefits","config":"Default","file":"RadarChartsData.csv"}]
+                "GroupedCharts": [{"name":"Benefits","config":"Default", "file":"BarChartData.csv","info":"Monetized project benefits"}],
+                "BarMap": [{"name":"Travel Options Benefit","config":"Default", "file":"BarChartAndMapData.csv","info":"Travel options (accessibility) benefits"}],
+                "3DMap": [{"name":"3D Travel Options Benefit","config":"Default","file":"3DAnimatedMapData.csv","info":"Travel options (accessibility) benefits"}],
+                "Chord": [{"name":"Travel Time Savings","config":"Default", "file":"ChordData.csv","info":"Travel time savings by OD"}]
             }
         },
         "DivisionBRT": {
@@ -29,10 +28,10 @@
             "CenterMap": [45.512794,-122.679565],
             "ScenarioFocus": "DivisionBRT.json",
             "visualizations": {
-                "GroupedCharts": [{"name":"Benefits","config":"Default", "file":"BarChartData.csv"}],
-                "BarMap": [{"name":"Travel Options Benefit","config":"Default", "file":"BarChartAndMapData.csv"}],
-                "3DMap": [{"name":"3D Travel Options Benefit","config":"Default","file":"3DAnimatedMapData.csv"}],
-                "Chord": [{"name":"Travel Time Savings","config":"Default", "file":"ChordData.csv"}]
+                "GroupedCharts": [{"name":"Benefits","config":"Default", "file":"BarChartData.csv","info":"Monetized project benefits"}],
+                "BarMap": [{"name":"Travel Options Benefit","config":"Default", "file":"BarChartAndMapData.csv","info":"Travel options (accessibility) benefits"}],
+                "3DMap": [{"name":"3D Travel Options Benefit","config":"Default","file":"3DAnimatedMapData.csv","info":"Travel options (accessibility) benefits"}],
+                "Chord": [{"name":"Travel Time Savings","config":"Default", "file":"ChordData.csv","info":"Travel time savings by OD"}]
             }
         },
         "Scenarios": {
@@ -40,8 +39,8 @@
             "title": "- I205 versus Division BRT",
             "CenterMap": [45.512794,-122.679565],
             "visualizations": {
-                "Scatter": [{"name":"BC Ratio","config":"Default","file":"Scatter.csv"}],
-                "GroupedCharts": [{"name":"Benefits","config":"Default", "file":"BarChartData.csv"}]
+                "Scatter": [{"name":"BC Ratio","config":"Default","file":"Scatter.csv","info":"Scenario benefit / cost"}],
+                "GroupedCharts": [{"name":"Benefits","config":"Default", "file":"BarChartData.csv","info":"Monetized project benefits"}]
             }
         },
         "Freight": {
@@ -49,7 +48,7 @@
             "title": "- Freight Flows",
             "CenterMap": [45.512794,-122.679565],
             "visualizations": {
-                "POIMap": [{"name":"Freight Flows","config":"Default","file":"PointofInterest.csv"}]
+                "POIMap": [{"name":"Freight Flows","config":"Default","file":"PointofInterest.csv","info":"Freight model flows"}]
             }
         },
         "Concept-B": {
@@ -58,10 +57,10 @@
             "CenterMap": [45.512794,-122.679565],
             "ScenarioFocus": "concept-b.json",
             "visualizations": {
-                "GroupedCharts": [{"name":"Benefits","config":"Default", "file":"BarChartData.csv"}],
-                "BarMap": [{"name":"Travel Options Benefit","config":"Default", "file":"BarChartAndMapData.csv"}],
-                "3DMap": [{"name":"3D Travel Options Benefit","config":"Default","file":"3DAnimatedMapData.csv"}],
-                "Chord": [{"name":"Travel Time Savings","config":"Default", "file":"ChordData.csv"}]
+                "GroupedCharts": [{"name":"Benefits","config":"Default", "file":"BarChartData.csv","info":"Monetized project benefits"}],
+                "BarMap": [{"name":"Travel Options Benefit","config":"Default", "file":"BarChartAndMapData.csv","info":"Travel options (accessibility) benefits"}],
+                "3DMap": [{"name":"3D Travel Options Benefit","config":"Default","file":"3DAnimatedMapData.csv","info":"Travel options (accessibility) benefits"}],
+                "Chord": [{"name":"Travel Time Savings","config":"Default", "file":"ChordData.csv","info":"Travel time savings by OD"}]
             }
         },
         "Concept-E": {
@@ -70,10 +69,10 @@
             "CenterMap": [45.512794,-122.679565],
             "ScenarioFocus": "concept-e.json",
             "visualizations": {
-                "GroupedCharts": [{"name":"Benefits","config":"Default", "file":"BarChartData.csv"}],
-                "BarMap": [{"name":"Travel Options Benefit","config":"Default", "file":"BarChartAndMapData.csv"}],
-                "3DMap": [{"name":"3D Travel Options Benefit","config":"Default","file":"3DAnimatedMapData.csv"}],
-                "Chord": [{"name":"Travel Time Savings","config":"Default", "file":"ChordData.csv"}]
+                "GroupedCharts": [{"name":"Benefits","config":"Default", "file":"BarChartData.csv","info":"Monetized project benefits"}],
+                "BarMap": [{"name":"Travel Options Benefit","config":"Default", "file":"BarChartAndMapData.csv","info":"Travel options (accessibility) benefits"}],
+                "3DMap": [{"name":"3D Travel Options Benefit","config":"Default","file":"3DAnimatedMapData.csv","info":"Travel options (accessibility) benefits"}],
+                "Chord": [{"name":"Travel Time Savings","config":"Default", "file":"ChordData.csv","info":"Travel time savings by OD"}]
             }
         }
     },
