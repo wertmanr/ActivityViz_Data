@@ -83,7 +83,7 @@
   },
   "Chord": {
     "Default": {
-      "ZoneFile":"districts.json"
+      "ZoneFile":"districts.json",
       "LabelSize": "14",
       "LegendText": "TRIPS"
     }
