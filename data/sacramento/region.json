@@ -83,8 +83,7 @@
   },
   "Chord": {
     "Default": {
-      "ZoneFile":"sacogll.json",
-      "ZoneFilterFile": "districts.csv",
+      "ZoneFile":"districts.json"
       "LabelSize": "14",
       "LegendText": "TRIPS"
     }

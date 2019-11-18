@@ -133,8 +133,7 @@
     "Scatter": {}, 
     "Chord": {
         "Default": {
-            "ZoneFile": "termini.json", 
-            "ZoneFilterFile": "cocs.csv",
+            "ZoneFile": "termini.json",
             "LabelSize": "14",
             "LegendRows": 4,
             "LegendText": "TRIPS"
