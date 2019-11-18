@@ -133,7 +133,7 @@
     "Scatter": {}, 
     "Chord": {
         "Default": {
-            "ZoneFile": "taz2162ll.json", 
+            "ZoneFile": "termini.json", 
             "ZoneFilterFile": "cocs.csv",
             "LabelSize": "14",
             "LegendRows": 4,
