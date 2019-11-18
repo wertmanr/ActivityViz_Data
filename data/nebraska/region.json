@@ -16,15 +16,7 @@
     "ATRI": {
       "title":"- ATRI Truck Data Processing",
       "visualizations": {
-        "Sunburst": [],
-        "3DMap": [],
-        "GroupedCharts": [],
-        "TimeUse": [],
-        "RadarCharts": [],
-        "BarMap": [],
-        "Scatter":[],
-        "POIMap": [],
-        "Chord": [{"name":"Truck Flows","config":"Default","file":"ChordData.csv"}]
+        "Chord": [{"name":"Truck Flows","config":"Default","file":"ChordData.csv","info":"Trip ODs"}]
       }
     }
   },
