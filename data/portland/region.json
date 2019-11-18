@@ -1,7 +1,6 @@
 {
     "Title": "Oregon Metro MCEVIZ", 
     "CountyFile": "metro_counties.json", 
-    "ZoneFile": "taz2162ll.json", 
     "Icon": "oregon-metro2.ico", 
     "Logo": "oregon-metro.png", 
     "NavbarTitle": "MCEVIZ", 
@@ -110,6 +109,7 @@
       "Default": {
         "BarSpacing": "0.6",
         "RotateLabels": "0",
+        "ZoneFile": "taz2162ll.json", 
         "ZoneFilterFile": "cocs.csv",
         "ZoneFilterLabel": "Historically Marginalized Communities",
         "CycleMapTools": false,
@@ -133,6 +133,7 @@
     "Scatter": {}, 
     "Chord": {
         "Default": {
+            "ZoneFile": "taz2162ll.json", 
             "ZoneFilterFile": "cocs.csv",
             "LabelSize": "14",
             "LegendRows": 4,
@@ -146,6 +147,7 @@
             "ZoneFilterLabel": "Historically Marginalized Communities",
             "ZoneFilterFile": "cocs.csv",
             "CentroidsOff": true,
+            "ZoneFile": "taz2162ll.json", 
             "ZoneFilters": {}
         }
     }

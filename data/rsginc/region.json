@@ -1,7 +1,6 @@
 {
   "Title": "RSG - ActivityViz",
-  "CountyFile": "ZoneShape.json",
-  "ZoneFile": "ZoneShape.json",
+  "CountyFile": "ZoneShape.json",  
   "Icon": "RSG.ico",
   "Logo": "RSG_400px.jpg",
   "NavbarTitle": "RSG ActivityViz",
@@ -42,7 +41,8 @@
   },
   "BarMap": {
     "Default": {
-      "CycleMapTools": false
+      "CycleMapTools": false,
+      "ZoneFile": "ZoneShape.json"
     }
   },
   "GroupedCharts": {
@@ -59,7 +59,8 @@
     "Default": {
       "ZoneFilterFile": "cocs.csv",
       "LabelSize": "14",
-      "LegendText": "Truck Flows"
+      "LegendText": "Truck Flows",
+      "ZoneFile": "ZoneShape.json"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "Title":"Nebraska ATRI VIZ",
   "CountyFile":"ZoneShape.json",
-  "ZoneFile":"ZoneShape.json",
+
   "Icon":"RSG.ico",
   "Logo":"ndot_logo_black.png",
   "NavbarTitle":"ActivityViz",
@@ -52,14 +52,15 @@
     "Default" : {
       "ShowPeriodsAsDropdown": false,
       "DataHasPeriods": true,
-      "ZoneFile": []
+      "ZoneFile":"ZoneShape.json"
     }
   },
   "Chord": {
     "Default": {
       "ZoneFilterFile": "cocs.csv",
       "LabelSize": "14",
-      "LegendText": "Truck Flows"
+      "LegendText": "Truck Flows",
+      "ZoneFile":"ZoneShape.json"
     }
     }
 }

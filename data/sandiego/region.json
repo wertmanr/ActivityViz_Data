@@ -1,7 +1,6 @@
 {
   "Title":"SANDAG ABMVIZ",
   "CountyFile":"CityShape.json",
-  "ZoneFile":"ZoneShape.GeoJSON",
   "Icon":"",
   "Logo":"logo_sandag.gif",
   "NavbarTitle":"ActivityViz",
@@ -81,6 +80,7 @@
   },
   "BarMap":{
     "Default":{
+      "ZoneFile":"ZoneShape.GeoJSON",
       "CycleMapTools": false 
     }
   },
@@ -116,9 +116,10 @@
   },
   "3DMap":{
     "Default": {
+      "ZoneFile":"ZoneShape.GeoJSON",
       "ShowPeriodsAsDropdown": false,
-      "DataHasPeriods": true,
-      "ZoneFile": []
+      "DataHasPeriods": true
+
     }
   }
 }
