@@ -1,5 +1,5 @@
 {
-  "Title":"Nebraska ATRI VIZ",
+  "Title":"Nebraska VIZ",
   "CountyFile":"ZoneShape.json",
 
   "Icon":"RSG.ico",
@@ -14,9 +14,15 @@
   "SideBarImage":"example.png",
   "scenarios":{
     "ATRI": {
-      "title":"- ATRI Truck Data Processing",
+      "title":"- ATRI Data Processing",
       "visualizations": {
         "Chord": [{"name":"Truck Flows","config":"Default","file":"ChordData.csv","info":"Trip ODs"}]
+      }
+    },
+	"PassiveData": {
+      "title":"- Passive Data Processing",
+      "visualizations": {
+        "Chord": [{"name":"Device Flows","config":"Default","file":"ChordData.csv","info":"Trips"}]
       }
     }
   },
@@ -51,7 +57,7 @@
     "Default": {
       "ZoneFilterFile": "cocs.csv",
       "LabelSize": "14",
-      "LegendText": "Truck Flows",
+      "LegendText": "District Flows",
       "ZoneFile":"ZoneShape.json"
     }
     }
