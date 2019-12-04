@@ -60,7 +60,10 @@
       "ZoneFilterFile": "cocs.csv",
       "LabelSize": "14",
       "LegendText": "Truck Flows",
-      "ZoneFile": "ZoneShape.json"
+      "ZoneFile": "ZoneShape.json",
+      "ExcludeSameOD": false,
+      "SideBySide": true,
+      "ChartPerRow": 3
     }
   }
 }

@@ -47,7 +47,7 @@
     "OD": {
       "title":"- OD flows by data source",
       "visualizations": {
-        "Chord": [{"name":"Trip ODs","config":"Default","file":"ChordData.csv","info":"Daily Trip ODs by Data Source"}]
+        "Chord": [{"name":"Trip ODs","config":"SideBySide","file":"ChordData.csv","info":"Daily Trip ODs by Data Source"}]
       }
     }
   },
@@ -86,6 +86,14 @@
       "ZoneFile":"districts.json",
       "LabelSize": "14",
       "LegendText": "TRIPS"
+    },
+    "SideBySide": {
+      "ZoneFile":"districts.json",
+      "LabelSize": "14",
+      "LegendText": "TRIPS",
+      "ExcludeSameOD": false,
+      "SideBySide": true,
+      "ChartPerRow": 3
     }
   }
 }
